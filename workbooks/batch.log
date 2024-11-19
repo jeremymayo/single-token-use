@@ -1,0 +1,45 @@
+===== Creating new session
+=====     Server:   http://localhost
+=====     Username: admin
+===== Connecting to the server...
+===== Signing in...
+===== Succeeded
+===== Continuing previous session
+=====     Server:   http://localhost
+=====     Username: admin
+===== Create site 'TC19' on the server...
+===== Succeeded
+===== redirecting to http://localhost/auth
+===== Signed out
+===== Creating new session
+=====     Server:   http://localhost
+=====     Username: admin
+=====     Site:     TC19
+===== Connecting to the server...
+===== Signing in...
+===== Succeeded
+===== Continuing previous session
+=====     Server:   http://localhost
+=====     Username: admin
+=====     Site:     TC19
+===== Upload progress: 90.55%
+===== Upload progress: 100%
+===== Publishing 'C:\Users\jmayo\Desktop\TC 2019 Lab Files\TC19\workbooks\Superstore Data.tdsx' to the server. This could take several minutes...
+===== File successfully published to the server at the following location:
+===== http://localhost/t/TC19/datasources/SuperstoreData
+===== Continuing previous session
+=====     Server:   http://localhost
+=====     Username: admin
+=====     Site:     TC19
+===== Publishing 'C:\Users\jmayo\Desktop\TC 2019 Lab Files\TC19\workbooks\tc_viz.twb' to the server. This could take several minutes...
+===== File successfully published to the server at the following location:
+===== http://localhost/t/TC19/workbooks/tc_viz
+===== Continuing previous session
+=====     Server:   http://localhost
+=====     Username: admin
+=====     Site:     TC19
+===== Publishing 'C:\Users\jmayo\Desktop\TC 2019 Lab Files\TC19\workbooks\RedirectPage.twbx' to the server. This could take several minutes...
+===== File successfully published to the server at the following location:
+===== http://localhost/t/TC19/workbooks/RedirectPage
+===== redirecting to http://localhost/auth
+===== Signed out
