@@ -3,7 +3,7 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, validators
 import requests
 import jwt
-import datetime
+from datetime import datetime, timezone, timedelta
 import uuid
 import sqlite3
 from werkzeug.exceptions import abort
@@ -38,7 +38,7 @@ def login():
     CA_SSO_token = jwt.encode(
         {
             "iss": ISSUER,
-            "exp": datetime.datetime.utcnow() + datetime.timedelta(minutes=8),
+            "exp": datetime.now(timezone.utc) + timedelta(minutes=10),
             "jti": str(uuid.uuid4()),
             "aud": "tableau",
             "sub": 'jmayo@tableau.com',
@@ -62,4 +62,4 @@ def loadDashboard():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
